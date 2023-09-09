@@ -31,6 +31,7 @@
         <b-row class="div-content">
           <b-col class="col-6">
             <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+            <table-plot :table-data="userData" :table-columns="userColumns"></table-plot>
           </b-col>
           <b-col class="col-6">
             <history-plot
@@ -53,6 +54,7 @@
               style="width:100%"
             >
             </history-plot>
+            <card-plot :list-data="parameterData"></card-plot>
           </b-col>
         </b-row>
       </b-card>
@@ -65,6 +67,7 @@
 import axios from "axios";
 import HistoryPlot from './HistoryPlot.vue';
 import TablePlot from './TablePlot.vue';
+import CardPlot from './CardPlot.vue';
 export default {
   name: 'PanelBoard',
   props: {
@@ -72,7 +75,8 @@ export default {
   },
   components: {
     HistoryPlot,
-    TablePlot
+    TablePlot,
+    CardPlot
   },
   data() {
     return {
@@ -94,7 +98,28 @@ export default {
           minWidth: 50,
         },
       ],
+
+      userData: [],
+      userColumns: [
+        {
+          prop: "user_name",
+          label: "User Name",
+          minWidth: 50,
+        },
+        {
+          prop: "name",
+          label: "Name",
+          minWidth: 50,
+        },
+        {
+          prop: "email",
+          label: "Email",
+          minWidth: 50,
+        },
+      ],
       
+      parameterData: [],
+
       plotData: {
           'price':[
               {'Date': 1662681600000, 'Close':21364.3},
@@ -123,6 +148,24 @@ export default {
         });
 
         vm.tableData = response.data
+
+      } catch (error) {
+        // pop up the error message
+        console.log(error.message)
+      }
+    },
+
+    async loadUserData() {
+      let vm = this;      
+      let path = "http://localhost:5000/getUsers";
+      try {
+        const response = await axios.post(path, {
+          params: {
+            asset_name: 'AAPL'
+          },
+        });
+
+        vm.userData = response.data
 
       } catch (error) {
         // pop up the error message
@@ -162,13 +205,35 @@ export default {
         // pop up the error message
         console.log(error.message)
       }
-    }
+    },
+    
+    async loadParameterData() {
+      let vm = this;      
+      let path = "http://localhost:5000/getParameters";
+      try {
+        const response = await axios.post(path, {
+          params: {
+            asset_name: 'AAPL'
+          },
+        });
+
+        vm.parameterData = response.data
+
+      } catch (error) {
+        // pop up the error message
+        console.log(error.message)
+      }
+    },
   },
+
   async beforeMount() {
     let vm = this;
 
     await vm.loadPlotData()
-    await vm.loadData()    
+    await vm.loadData()  
+    await vm.loadUserData()    
+
+    await vm.loadParameterData()
   },
   mounted() {},
 }

@@ -23,6 +23,35 @@ def get_asset_data():
     return df.to_json(orient='records')
 
 
+@app.route('/getUsers', methods=['POST'])
+def get_user_data():
+    data = [
+        ['test1', 'John Sun1', 'john1@gmail.com'], 
+        ['test2', 'John Sun2', 'john2@gmail.com'], 
+        ['test2', 'John Sun3', 'john3@gmail.com'], 
+    ]
+  
+    # Create the pandas DataFrame
+    df = pd.DataFrame(data, columns=['user_name', 'name', 'email'])
+
+    return df.to_json(orient='records')
+
+
+
+@app.route('/getParameters', methods=['POST'])
+def get_parameter_data():
+    data = [
+        ['amount', '123M'], 
+        ['dollar', '$123'], 
+        ['ratio', '12%'], 
+    ]
+  
+    # Create the pandas DataFrame
+    df = pd.DataFrame(data, columns=['name', 'value'])
+
+    return df.to_json(orient='records')
+
+
 # sanity check route
 @app.route('/getTimeSeriesData', methods=['POST'])
 def get_time_series_data():
