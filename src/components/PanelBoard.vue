@@ -11,9 +11,11 @@
         </template>
         <b-row class="div-content">
           <b-col class="col-6">
+            <span class="span-table-title">Asset</span>
             <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
           </b-col>
           <b-col class="col-6">
+            <span class="span-table-title">System Indicators</span>
             <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
           </b-col>
         </b-row>
@@ -30,10 +32,13 @@
         </template>
         <b-row class="div-content">
           <b-col class="col-6">
+            <span class="span-table-title">My Indicators</span>
             <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+            <span class="span-table-title">Subscribers</span>
             <table-plot :table-data="userData" :table-columns="userColumns"></table-plot>
           </b-col>
           <b-col class="col-6">
+            <span class="span-table-title">My Monitor</span>
             <history-plot
               plot-name="semantic_curve"
               :plot-data="plotData"
@@ -54,6 +59,7 @@
               style="width:100%"
             >
             </history-plot>
+            <span class="span-table-title">Parameters</span>
             <card-plot :list-data="parameterData"></card-plot>
           </b-col>
         </b-row>
@@ -249,6 +255,10 @@ export default {
 
 .div-content {
   height: 800px;
+}
+
+.span-table-title {
+  font-weight: bold;
 }
 </style>
 
