@@ -9,21 +9,13 @@
             <h6>My Market AI Agent (demand monitor)</h6>
           </div>
         </template>
-        <b-row>
-          <div class="div-content">
-            
-            <el-table stripe style="width: 100%" :data="visibleData" border>
-              <el-table-column
-                sortable
-                v-for="column in tableColumns"
-                :key="column.label"
-                :min-width="column.minWidth"
-                :prop="column.prop"
-                :label="column.label"
-              >
-              </el-table-column>
-            </el-table>
-          </div>
+        <b-row class="div-content">
+          <b-col class="col-6">
+            <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+          </b-col>
+          <b-col class="col-6">
+            <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+          </b-col>
         </b-row>
       </b-card>
     </b-col>
@@ -36,8 +28,11 @@
             <h6>My Uploading Agent (supply monitor)</h6>
           </div>
         </template>
-        <b-row>
-          <div class="div-content">
+        <b-row class="div-content">
+          <b-col class="col-6">
+            <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+          </b-col>
+          <b-col class="col-6">
             <history-plot
               plot-name="semantic_curve"
               :plot-data="plotData"
@@ -58,7 +53,7 @@
               style="width:100%"
             >
             </history-plot>
-          </div>
+          </b-col>
         </b-row>
       </b-card>
     </b-col>
@@ -69,73 +64,38 @@
 <script>
 import axios from "axios";
 import HistoryPlot from './HistoryPlot.vue';
+import TablePlot from './TablePlot.vue';
 export default {
   name: 'PanelBoard',
   props: {
     msg: String
   },
   components: {
-    HistoryPlot
+    HistoryPlot,
+    TablePlot
   },
   data() {
     return {
-      visibleData: [],
+      tableData: [],
       tableColumns: [
         {
           prop: "asset_name",
           label: "Name",
-          minWidth: 100,
+          minWidth: 50,
         },
         {
           prop: "feature_0",
           label: "feature_0",
-          minWidth: 150,
+          minWidth: 50,
         },
         {
           prop: "feature_1",
           label: "feature_1",
-          minWidth: 130,
-        },
-        {
-          prop: "feature_2",
-          label: "feature_2",
-          minWidth: 160,
+          minWidth: 50,
         },
       ],
       
-    }
-  },
-  methods: {
-    async loadData() {
-      let vm = this;
-      // for(var i=0; i<10; i++) {
-      //   var obj = {}
-      //   obj['asset_name'] = "name_"+i
-      //   obj['feature_0'] = "feature_0_"+i
-      //   obj['feature_1'] = "feature_1_"+i
-      //   obj['feature_2'] = "feature_2_"+i
-      //   vm.visibleData.push(obj);
-      // }
-      
-      let path = "http://localhost:5000/getAssetData";
-      try {
-        const response = await axios.post(path, {
-          params: {
-            asset_name: 'AAPL'
-          },
-        });
-
-        vm.visibleData = response.data
-
-      } catch (error) {
-        // pop up the error message
-        console.log(error.message)
-      }
-    },
-
-    loadPlotData() {
-      let vm = this;
-      vm.plotData = {
+      plotData: {
           'price':[
               {'Date': 1662681600000, 'Close':21364.3},
               {'Date': 1662768000000, 'Close':21652.5},
@@ -151,10 +111,63 @@ export default {
         }
     }
   },
+  methods: {
+    async loadData() {
+      let vm = this;      
+      let path = "http://localhost:5000/getAssetData";
+      try {
+        const response = await axios.post(path, {
+          params: {
+            asset_name: 'AAPL'
+          },
+        });
+
+        vm.tableData = response.data
+
+      } catch (error) {
+        // pop up the error message
+        console.log(error.message)
+      }
+    },
+
+    async loadPlotData() {
+      let vm = this;
+      // vm.plotData = {
+      //     'price':[
+      //         {'Date': 1662681600000, 'Close':21364.3},
+      //         {'Date': 1662768000000, 'Close':21652.5},
+      //         {'Date': 1662854400000, 'Close':20652.5},
+      //         {'Date': 1662940800000, 'Close':20252.5},
+      //       ],
+      //     'sentiment': [
+      //         {'Date': 1662681600000, 'Sentiment':0.3},
+      //         {'Date': 1662768000000, 'Sentiment':0.7},
+      //         {'Date': 1662854400000, 'Sentiment':0.5},
+      //         {'Date': 1662940800000, 'Sentiment':0.1},
+      //     ]
+      //   }
+
+      let path = "http://localhost:5000/getTimeSeriesData";
+      try {
+        const response = await axios.post(path, {
+          params: {
+            asset_name: 'AAPL'
+          },
+        });
+
+        vm.plotData = response.data
+        console.log(vm.plotData)
+
+      } catch (error) {
+        // pop up the error message
+        console.log(error.message)
+      }
+    }
+  },
   async beforeMount() {
     let vm = this;
 
-    vm.loadPlotData()
+    await vm.loadPlotData()
     await vm.loadData()    
   },
   mounted() {},

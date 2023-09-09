@@ -12,7 +12,7 @@
             icon="fa-solid fa-magnifying-glass"
             class="text-info"
           /> -->
-          Show History
+          Reset
         </button>
         <button
           v-else
@@ -24,7 +24,7 @@
             icon="fa-solid fa-magnifying-glass-plus"
             class="text-info"
           /> -->
-          Show Recent
+          Reset
         </button>
       </div>
       <div id="div_history" style="height:100%"></div>
