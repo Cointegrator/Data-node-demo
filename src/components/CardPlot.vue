@@ -1,10 +1,12 @@
 <template>
-    <div>
-        <el-card v-for="d in listData" :key="d.value" class="box-card col-5">
-            <span style="font-size: 15pt; font-weight:bold">{{ d.value }}</span>
-            <br>
-            <span style="font-size: 9pt">{{ d.name }}</span>
-        </el-card>
+    <div class="row">
+        <div v-for="d in listData" :key="d.value" class="box-card col-6">
+            <el-card>
+                <span style="font-size: 15pt; font-weight:bold">{{ d.value }}</span>
+                <br>
+                <span style="font-size: 9pt">{{ d.name }}</span>
+            </el-card>
+        </div>
     </div>
 
 </template>
@@ -43,6 +45,8 @@ export default {
 <style scoped>
 .box-card {
     min-width: 80px;
+    display: inline;
+    margin-bottom: 10px;
 }
 </style>
 

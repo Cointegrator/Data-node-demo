@@ -23,6 +23,14 @@ def get_asset_data():
     return df.to_json(orient='records')
 
 
+# get the asset table (the very left table on the left)
+@app.route('/getPopularity', methods=['POST'])
+def get_popularity_data():
+    df = pd.read_csv('./data/popularity.csv')
+    return df.to_json(orient='records')
+
+
+
 @app.route('/getUsers', methods=['POST'])
 def get_user_data():
     data = [
