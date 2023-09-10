@@ -109,6 +109,10 @@ export default {
       if(this.tableName==='indicatorTable') {
         console.log(row['Description'])
       }
+      if(this.tableName=='myIndicatorTable') {
+        console.log(row)
+        bus.$emit('change_selected_indicator', row['name'])
+      }
     },
     handleRowMouseEnter(row, event, column) {
       console.log(row)

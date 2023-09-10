@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 import pandas as pd
 import datetime
@@ -77,14 +77,20 @@ def get_time_series_data():
     asset_name = js_input['asset_name']
     indicator_name = js_input['indicator_name']
 
-    df = pd.read_csv('./data/transaction.csv')
+    df = pd.read_csv(f'./data/{asset_name}_{indicator_name}.csv')
     df['block_date'] = pd.to_datetime(df['block_date'])
-    df['Date'] = df['block_date'].astype('int64') // 10**6
+    # Convert datetime column to UTC
+    df['block_date'] = df['block_date'].dt.tz_localize('UTC')
 
+    df['Date'] = df['block_date'].astype('int64') // 10**6 - 28800000
+
+    
     # Sort the DataFrame by the 'unix_milliseconds' column
     df = df.sort_values(by='Date')
 
-    df = df.loc[:, ['Date', 'volumes']]
+    print(df.tail(5))
+
+    df = df.loc[:, ['Date', 'value']]
 
     return {
         'offchain': json.loads(df.to_json(orient='records'))

@@ -92,13 +92,13 @@
                     type: 'Curve',
                     name: 'Volume',  // show this as the axis name
                     field: 'offchain', // this is the ts field of plotData
-                    key: 'volumes',   // this is the yaxis key (x-axis is Date)
+                    key: 'value',   // this is the yaxis key (x-axis is Date)
                   }"
                   :y-right-field="{ 
                     type: 'Curve', 
                     name: 'Volume', 
                     field: 'onchain',
-                    key: 'volumes',
+                    key: 'value',
                   }"
                   :div-height="30"
                   style="width:100%"
@@ -114,6 +114,7 @@
                   :table-data="myIndicatorData" 
                   :table-columns="myIndicatorColumns"
                   :char-length="30"
+                  table-name="myIndicatorTable"
                 >
                 </table-plot>
               </b-col>
@@ -157,7 +158,7 @@ export default {
       myIndicatorData: [
         {'name': 'transaction', 'desc': 'Transaction volume'},
         {'name': 'growth', 'desc': 'Number of wallet growth'},
-        {'name': 'whale', 'desc': 'Whale activities'}
+        {'name': 'whales', 'desc': 'Whale activities'}
       ],
       myIndicatorColumns: [
         {
@@ -226,8 +227,10 @@ export default {
           minWidth: 38,
         },
       ],
-      curAsset: 'FTX Token',
 
+      curAsset: 'FTX Token',
+      curIndicator: 'transaction',
+      
       indicatorData: [],
       selectedIndicatorData: [],
       indicatorColumns: [
@@ -265,6 +268,11 @@ export default {
         return d['Name'] === vm.curAsset
       })
     },
+
+    curIndicator: async function(newVal, oldVal) {
+      let vm = this;
+      await vm.loadPlotData()
+    }
   },
   methods: {
     async loadData() {
@@ -320,12 +328,13 @@ export default {
       //     ]
       //   }
 
-      var indicator = "transaction"
+      var asset = 'TOMI' // vm.curAsset
+      var indicator = vm.curIndicator //"transaction" 
       let path = "http://localhost:5000/getTimeSeriesData";
       try {
         const response = await axios.post(path, {
           params: {
-            asset_name: vm.curAsset,
+            asset_name: asset,
             indicator_name: indicator
           },
         });
@@ -334,44 +343,44 @@ export default {
 
         // append real onchain data for this token only
         vm.plotData['onchain'] = []
-        if(vm.curAsset=='TOMI' && indicator=='transaction') {
+        if(asset=='TOMI' && indicator=='transaction') {
           vm.plotData['onchain'] = [
             {
               token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
               indicator: 'transaction_volume',
               Date: 1693929600000,
-              volumes: 855801.515563977
+              value: 855801.515563977
             },
             {
               token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
               indicator: 'transaction_volume',
               Date: 1694016000000,
-              volumes: 589579.845289797
+              value: 589579.845289797
             },
             {
               token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
               indicator: 'transaction_volume',
               Date: 1694102400000,
-              volumes: 1522446.423396
+              value: 1522446.423396
             },
             {
               token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
               indicator: 'transaction_volume',
               Date: 1694188800000,
-              volumes: 151767.056899967
+              value: 151767.056899967
             },
             {
               token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
               indicator: 'transaction_volume',
               Date: 1694275200000,
-              volumes: 877146.644690235
+              value: 877146.644690235
             }
           ]
         }
-        
-
-        console.log(vm.plotData)
-
+        else {
+          vm.plotData['onchain'] = [
+          ]
+        }
       } catch (error) {
         // pop up the error message
         console.log(error.message)
@@ -451,6 +460,9 @@ export default {
     let vm = this;
     bus.$on("change_selected_asset", function(d) {
       vm.curAsset = d
+    })
+    bus.$on("change_selected_indicator", function(d) {
+      vm.curIndicator = d
     })
     
   },
