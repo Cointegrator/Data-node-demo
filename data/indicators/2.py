@@ -9,7 +9,7 @@ columns_to_keep = [col for col in trend.columns if 'isPartial' not in col]
 trend = trend[columns_to_keep]
 print(trend.head())
 
-price= pd.read_csv('crypto_data_11PM.csv',index_col=None)
+price= pd.read_csv('coinranking_top_gainers_02.csv',index_col=None)
 
 
 print(price.head())
