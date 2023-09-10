@@ -1,17 +1,11 @@
 <template>
     <div>
         <el-table 
-          border highlight-current-row style="width: 100%" 
+          stripe border highlight-current-row style="width: 100%" 
           header-row-class-name="table-header"
           :header-cell-style="{ background: 'rgb(217, 217, 217)', border: 'gray solid .5px' }"
           :data="pagedTableData"
           @row-click="handleRowClick">
-            <el-table-column type="expand">
-              <template slot-scope="scope">
-                <p style="padding: 5px;">{{ scope.row[extendColRef] }}</p>
-              </template>
-            </el-table-column>
-
             <el-table-column
             sortable
             v-for="column in tableColumns"
@@ -23,15 +17,23 @@
             >
             </el-table-column>
 
-            <el-table-column :label="barColName"
-              min-width="30">
+            <el-table-column :label="tooltipColName" min-width="50" sortable>
               <template slot-scope="scope">
-                <!-- Customize the content of the column here -->
-                <div class="bar-container">
-                  <div class="bar" :style="{ width: (scope.row[barColRef]*100) + '%' }"></div>
-                </div>
+                <el-tooltip effect="dark" placement="top-start" :content="scope.row[tooltipColRef]">
+                  <span>Description</span>
+                </el-tooltip>
               </template>
             </el-table-column>
+
+
+            <!-- <el-table-column :label="tooltipColName"
+              min-width="50">
+              <template slot-scope="scope">
+                <div class="bar-container">
+                  <div class="bar" :style="{ width: (scope.row[tooltipColRef]*100) + '%' }"></div>
+                </div>
+              </template>
+            </el-table-column> -->
 
         </el-table>
         <el-pagination
@@ -55,22 +57,16 @@ export default {
         return "defaultTableName";
       }
     },
-    barColName: {// this is the name to be shown
+    tooltipColName: {// this is the name to be shown
       type: String,
       default: () => {
         return "Length";
       }
     },
-    barColRef: { // this is the name in the data column
+    tooltipColRef: { // this is the name in the data column
       type: String,
       default: () => {
         return "total";
-      }
-    },
-    extendColRef: { // this is the name in the data column
-      type: String,
-      default: () => {
-        return "Description";
       }
     },
     tableColumns: {

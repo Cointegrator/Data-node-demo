@@ -1,11 +1,12 @@
 <template>
     <div>
         <el-table 
-          stripe border highlight-current-row style="width: 100%" 
+          border highlight-current-row style="width: 100%" 
           header-row-class-name="table-header"
           :header-cell-style="{ background: 'rgb(217, 217, 217)', border: 'gray solid .5px' }"
           :data="pagedTableData"
-          @row-click="handleRowClick">
+          @row-click="handleRowClick"
+          @row-mouseenter="handleRowMouseEnter">
             <el-table-column
             sortable
             v-for="column in tableColumns"
@@ -28,6 +29,7 @@
 </template>
 
 <script>
+import { bus } from "../main"
 export default {
   name: 'TablePlot',
   props: {
@@ -95,7 +97,18 @@ export default {
       // console.log('Click event:', event);
       // console.log('Clicked column:', column);
 
-      console.log(this.tableName, row)
+      if(this.tableName==='assetTable') {
+        bus.$emit('change_selected_asset', row['name']) 
+      }
+      if(this.tableName==='indicatorTable') {
+        console.log(row['Description'])
+      }
+    },
+    handleRowMouseEnter(row, event, column) {
+      console.log(row)
+      if(this.tableName==='indicatorTable') {
+        console.log(row)
+      }
     },
     setPage(val) {
       this.page = val;
@@ -109,8 +122,8 @@ export default {
         return value.toFixed(3)
       }
       else if(typeof value === 'string') {
-        if (value.length > 13) {
-          return value.slice(0, 13);
+        if (value.length > 12) {
+          return value.slice(0, 12);
         }
         else {
           return value;

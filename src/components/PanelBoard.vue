@@ -12,18 +12,39 @@
         <b-row class="div-content">
           <b-col class="col-6">
             <span class="span-table-title">Asset</span>
-            <table-plot :table-data="assetData" :table-columns="assetColumns" table-name="assetTable"></table-plot>
+            <table-plot 
+              ref="assetTable"
+              :table-data="assetData" 
+              :table-columns="assetColumns" 
+              table-name="assetTable"
+            >
+            </table-plot>
           </b-col>
           <b-col class="col-6">
             <span class="span-table-title">System Indicators</span>
             <table-bar-plot 
-              :table-data="indicatorData" 
+              :table-data="selectedIndicatorData" 
               :table-columns="indicatorColumns"
-              bar-col-ref="total"
+              bar-col-ref="Percentage"
               bar-col-name="Percentage"
+              extend-col-ref="Description"
               table-name="indicatorTable"
             >
             </table-bar-plot>
+            <!-- <table-plot 
+              :table-data="selectedIndicatorData" 
+              :table-columns="indicatorColumns"
+              table-name="indicatorTable"
+            >
+            </table-plot> -->
+            <!-- <table-tooltip-plot 
+              :table-data="selectedIndicatorData" 
+              :table-columns="indicatorColumns"
+              bar-col-ref="Description"
+              bar-col-name="Description"
+              table-name="indicatorTable"
+            >
+            </table-tooltip-plot> -->
           </b-col>
         </b-row>
       </b-card>
@@ -88,7 +109,10 @@ import axios from "axios";
 import HistoryPlot from './HistoryPlot.vue';
 import TablePlot from './TablePlot.vue';
 import TableBarPlot from './TableBarPlot.vue';
+import TableTooltipPlot from './TableTooltipPlot.vue';
 import CardPlot from './CardPlot.vue';
+import { bus } from "../main"
+
 export default {
   name: 'PanelBoard',
   props: {
@@ -98,7 +122,8 @@ export default {
     HistoryPlot,
     TablePlot,
     CardPlot,
-    TableBarPlot
+    TableBarPlot,
+    TableTooltipPlot
   },
   data() {
     return {
@@ -175,27 +200,45 @@ export default {
           minWidth: 38,
         },
       ],
+      curAsset: 'FTX Token',
 
       indicatorData: [],
+      selectedIndicatorData: [],
       indicatorColumns: [
         {
-          prop: "rank",
-          label: "Rank",
-          minWidth: 32,
+          prop: "Indicator",
+          label: "Indicator",
+          minWidth: 30,
         },
         {
-          prop: "name",
-          label: "Name",
-          minWidth: 50,
+          prop: "Category",
+          label: "Cat.",
+          minWidth: 20,
         },
         // {
-        //   prop: "total",
-        //   label: "Trendy",
+        //   prop: "Description",
+        //   label: "Description",
         //   minWidth: 38,
         // },
       ],
 
     }
+  },
+  watch: {
+    curAsset: function (newVal, oldVal) {
+      let vm = this;
+
+      // // highlight selection in the table
+      // var row = vm.assetData.filter(function(d) {
+      //   return d['Name'] === vm.curAsset
+      // })
+      // console.log(row)
+      // this.$refs.assetTable.setCurrentRow(row[0])
+
+      vm.selectedIndicatorData = vm.indicatorData.filter(function(d) {
+        return d['Name'] === vm.curAsset
+      })
+    },
   },
   methods: {
     async loadData() {
@@ -297,6 +340,7 @@ export default {
         });
 
         vm.assetData = response.data
+        vm.curAsset = 'FTX Token'
       } catch (error) {
         // pop up the error message
         console.log(error.message)
@@ -314,6 +358,9 @@ export default {
         });
 
         vm.indicatorData = response.data
+        vm.selectedIndicatorData = vm.indicatorData.filter(function(d,i) {
+          return d['Name'] === vm.curAsset
+        })
       } catch (error) {
         // pop up the error message
         console.log(error.message)
@@ -333,7 +380,13 @@ export default {
 
     await vm.loadParameterData()
   },
-  mounted() {},
+  mounted() {
+    let vm = this;
+    bus.$on("change_selected_asset", function(d) {
+      vm.curAsset = d
+    })
+    
+  },
 }
 </script>
 
@@ -348,6 +401,7 @@ export default {
 .div-content {
   height: 800px;
   margin: 3px;
+  overflow: scroll;
 }
 
 .span-table-title {
