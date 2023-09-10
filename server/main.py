@@ -4,6 +4,7 @@ import pandas as pd
 import datetime
 import numpy as np
 import json
+import random
 
 # instantiate the app
 app = Flask(__name__)
@@ -59,9 +60,9 @@ def get_user_data():
 @app.route('/getParameters', methods=['POST'])
 def get_parameter_data():
     data = [
-        ['Data Consistency', '20%'], 
-        ['Reward', '5 Sei token'], 
-        ['Prediction Capability', '12%'], 
+        ['Data Consistency', f'{random.randint(1, 100)}%'], 
+        ['Reward', f'{random.randint(1, 10)} Sei token'], 
+        ['Prediction Capability', f'{random.randint(1, 100)}%'], 
     ]
   
     # Create the pandas DataFrame

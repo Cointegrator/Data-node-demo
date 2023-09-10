@@ -109,7 +109,7 @@
             <br>
             <b-row>
               <b-col class="col-6">
-                <span class="span-table-title">My Indicators</span>
+                <span class="span-table-title">My Indicators ({{curAsset}})</span>
                 <table-plot 
                   :table-data="myIndicatorData" 
                   :table-columns="myIndicatorColumns"
@@ -265,13 +265,16 @@ export default {
       // this.$refs.assetTable.setCurrentRow(row[0])
 
       vm.selectedIndicatorData = vm.indicatorData.filter(function(d) {
-        return d['Name'] === vm.curAsset
+        return d['Token'] === vm.curAsset || d['Name'] === vm.curAsset
       })
+
+      vm.loadParameterData()
     },
 
     curIndicator: async function(newVal, oldVal) {
       let vm = this;
       await vm.loadPlotData()
+      vm.loadParameterData()
     }
   },
   methods: {
