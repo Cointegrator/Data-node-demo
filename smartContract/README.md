@@ -1,7 +1,7 @@
 # Oracle Smart Contract by AiOra - team of OnePiece Labs x Sei Labs Web3 Hackathon 
 The orale code is generated during the Hackathon in Sep 9, 2023 - Sep 10, 2023 by the team
-Dannie Li, Rein (IndicatorLab) Wu, Jason (Indicatorlab), and Sirshendu (Indicatorlab).
-Dannie is the main /lead contributor of this smart contract.
+Rein (IndicatorLab) Wu, Dannie Li, Jason (Indicatorlab), and Sirshendu (Indicatorlab).
+Dannie is the main /lead contributor of this smart contract and write in the copyright.
 
 # CosmWasm Starter Pack
 
