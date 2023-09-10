@@ -35,7 +35,7 @@ df_score2.set_index('Name', inplace=True)
 result = df_score1.add(df_score2, fill_value=0)
 result.fillna(0, inplace=True)
 result['total'] = result.sum(axis=1)
-result['Rank'] = result['total'].rank(ascending=False)
+result['Rank'] = result['total'].rank(ascending=False, method='first')
 df_sorted = result.sort_values(by='Rank')
-df_sorted = df_sorted[['total','Rank']].to_csv('popularity.csv')
-a = 1
+df_sorted[['total','Rank']].to_csv('popularity.csv')
+
