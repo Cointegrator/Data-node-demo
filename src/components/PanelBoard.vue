@@ -12,7 +12,7 @@
         <b-row class="div-content">
           <b-col class="col-6">
             <span class="span-table-title">Asset</span>
-            <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+            <table-plot :table-data="assetData" :table-columns="assetColumns"></table-plot>
           </b-col>
           <b-col class="col-6">
             <span class="span-table-title">System Indicators</span>
@@ -38,29 +38,29 @@
             <table-plot :table-data="userData" :table-columns="userColumns"></table-plot>
           </b-col>
           <b-col class="col-6">
-            <span class="span-table-title">My Monitor</span>
-            <history-plot
-              plot-name="semantic_curve"
-              :plot-data="plotData"
-              :zoom-red-dot='false'
-              :y-left-field="{
-                type: 'Curve',
-                name: 'Price',  // show this as the axis name
-                field: 'price', // this is the ts field of plotData
-                key: 'Close',   // this is the yaxis key (x-axis is Date)
-              }"
-              :y-right-field="{ 
-                type: 'Curve', 
-                name: 'Sentiment', 
-                field: 'sentiment',
-                key: 'Sentiment',
-              }"
-              :div-height="26"
-              style="width:100%"
-            >
-            </history-plot>
-            <span class="span-table-title">Parameters</span>
-            <card-plot :list-data="parameterData"></card-plot>
+              <span class="span-table-title">My Monitor</span>
+              <history-plot
+                plot-name="semantic_curve"
+                :plot-data="plotData"
+                :zoom-red-dot='false'
+                :y-left-field="{
+                  type: 'Curve',
+                  name: 'Price',  // show this as the axis name
+                  field: 'price', // this is the ts field of plotData
+                  key: 'Close',   // this is the yaxis key (x-axis is Date)
+                }"
+                :y-right-field="{ 
+                  type: 'Curve', 
+                  name: 'Sentiment', 
+                  field: 'sentiment',
+                  key: 'Sentiment',
+                }"
+                :div-height="26"
+                style="width:100%"
+              >
+              </history-plot>
+              <span class="span-table-title">Parameters</span>
+              <card-plot :list-data="parameterData"></card-plot>
           </b-col>
         </b-row>
       </b-card>
@@ -125,7 +125,6 @@ export default {
       ],
       
       parameterData: [],
-
       plotData: {
           'price':[
               {'Date': 1662681600000, 'Close':21364.3},
@@ -139,7 +138,26 @@ export default {
               {'Date': 1662854400000, 'Sentiment':0.5},
               {'Date': 1662940800000, 'Sentiment':0.1},
           ]
-        }
+        },
+      assetData: [],
+      assetColumns: [
+        {
+          prop: "rank",
+          label: "Rank",
+          minWidth: 32,
+        },
+        {
+          prop: "name",
+          label: "Name",
+          minWidth: 50,
+        },
+        {
+          prop: "total",
+          label: "Trendy",
+          minWidth: 38,
+        },
+      ],
+
     }
   },
   methods: {
@@ -230,10 +248,29 @@ export default {
         console.log(error.message)
       }
     },
+
+    async loadAssetData() {
+      let vm = this;      
+      let path = "http://localhost:5000/getPopularity";
+      try {
+        const response = await axios.post(path, {
+          params: {
+            asset_name: 'AAPL'
+          },
+        });
+
+        vm.assetData = response.data
+      } catch (error) {
+        // pop up the error message
+        console.log(error.message)
+      }
+    }
   },
 
   async beforeMount() {
     let vm = this;
+
+    await vm.loadAssetData()
 
     await vm.loadPlotData()
     await vm.loadData()  
@@ -255,10 +292,15 @@ export default {
 
 .div-content {
   height: 800px;
+  margin: 3px;
 }
 
 .span-table-title {
   font-weight: bold;
+}
+
+.div-container {
+  margin: 10px;
 }
 </style>
 
