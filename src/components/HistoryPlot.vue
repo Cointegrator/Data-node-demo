@@ -116,7 +116,7 @@ export default {
       height: 0,
       contentWidth: 0,
       contentHeight: 0,
-      margin: { left: 50, right: 20, top: 10, bottom: 30 },
+      margin: { left: 60, right: 20, top: 10, bottom: 30 },
       uiHeight: 30,              //zoom UI button height
       svg: null,
 
@@ -619,6 +619,10 @@ export default {
 
     drawTimeSeries(dom, curveData, cssCurveName, fieldName, yScale, color) {
       let vm = this;
+
+      if(curveData && curveData.length==0) {
+        dom.selectAll(".path_curve_right").attr("d","")
+      }
 
       if(!(curveData && curveData.length>0)) {
         return
