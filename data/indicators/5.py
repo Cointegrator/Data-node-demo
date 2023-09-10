@@ -28,9 +28,12 @@ def get_indicators(ticker, description):
 
 
 
-df=pd.read_csv("collected_description_11PM.csv")
+df=pd.read_csv("collected_description_now.csv")
 df=df[['Coin name','link','description_list']]
 print(df.head(5))
+
+
+
 
 results=[]
 for index, row in df.iterrows():
@@ -41,9 +44,13 @@ for index, row in df.iterrows():
 
     result=get_indicators(name, description_list)
     print(f"{name}\n{result}\n\n")
-    results.append(result)
     
+    results.append(result)
+    print(f"{index} iteration done")
+    
+
+
 df['indicators']=results
 
 # Save the DataFrame as a CSV file
-df.to_csv('indicators.csv', index=False)  
+df.to_csv('indicators_now.csv', index=False)  

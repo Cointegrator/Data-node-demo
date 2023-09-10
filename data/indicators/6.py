@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import sys
 
-df=pd.read_csv("indicators.csv")
+df=pd.read_csv("indicators_now.csv")
 df=df[['Coin name', 'indicators']]
 
 
@@ -77,10 +77,10 @@ for index, row in df.iterrows():
 # Creating a new DataFrame with the split rows
 new_df = pd.DataFrame(rows, columns=['Coin name', 'Category', 'Indicator'])
 
-new_df.to_csv('indicators_on_off_chain.csv', index=False)  
+new_df.to_csv('indicators_on_off_description_now.csv', index=False)  
 print(new_df.head(10))
 
-df=pd.read_csv("collected_description_11PM.csv")
+df=pd.read_csv("collected_description_now.csv")
 
 df=df[['Coin name', 'description_list']]
 print(df.head(10))
@@ -95,4 +95,4 @@ merged_df = merged_df.rename(columns={'description_list': 'Coin Description'})
 # Display the merged dataframe
 print(merged_df)
 
-merged_df.to_csv('indicators_on_off_description.csv', index=False)  
+merged_df.to_csv('indicators_on_off_description_now.csv', index=False)  
