@@ -24,11 +24,18 @@ def get_asset_data():
 
 
 # get the asset table (the very left table on the left)
-@app.route('/getPopularity', methods=['POST'])
-def get_popularity_data():
+@app.route('/getAsset', methods=['POST'])
+def get_asset():
     df = pd.read_csv('./data/popularity.csv')
     return df.to_json(orient='records')
 
+
+
+# get the asset table (the very left table on the left)
+@app.route('/getIndicator', methods=['POST'])
+def get_indicator():
+    df = pd.read_csv('./data/popularity.csv')
+    return df.to_json(orient='records')
 
 
 @app.route('/getUsers', methods=['POST'])
@@ -49,9 +56,9 @@ def get_user_data():
 @app.route('/getParameters', methods=['POST'])
 def get_parameter_data():
     data = [
-        ['amount', '123M'], 
-        ['dollar', '$123'], 
-        ['ratio', '12%'], 
+        ['Data Consistency', '123M'], 
+        ['Reward', '$123'], 
+        ['Prediction Capability', '12%'], 
     ]
   
     # Create the pandas DataFrame

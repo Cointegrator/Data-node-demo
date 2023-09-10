@@ -116,7 +116,7 @@ export default {
       height: 0,
       contentWidth: 0,
       contentHeight: 0,
-      margin: { left: 70, right: 40, top: 10, bottom: 30 },
+      margin: { left: 20, right: 20, top: 10, bottom: 30 },
       uiHeight: 30,              //zoom UI button height
       svg: null,
 
