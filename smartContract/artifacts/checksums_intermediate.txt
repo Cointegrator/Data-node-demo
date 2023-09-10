@@ -1,0 +1,1 @@
+8a238c8cde4d7a0eab0c136963798780f34d8bfc7cfa3ccf989ddcfcaef4e193  ./target/wasm32-unknown-unknown/release/data_oracle.wasm
