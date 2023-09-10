@@ -31,7 +31,6 @@ def get_asset():
     return df.to_json(orient='records')
 
 
-
 # get the asset table (the very left table on the left)
 @app.route('/getIndicator', methods=['POST'])
 def get_indicator():
@@ -40,7 +39,6 @@ def get_indicator():
     # append a percentage for random value
     df['Percentage'] = np.random.rand(len(df))
 
-    print(df.head())
     return df.to_json(orient='records')
 
 
@@ -71,7 +69,6 @@ def get_parameter_data():
     return df.to_json(orient='records')
 
 
-# sanity check route
 @app.route('/getTimeSeriesData', methods=['POST'])
 def get_time_series_data():
     js_input = json.loads(request.data)['params']
@@ -89,14 +86,11 @@ def get_time_series_data():
     # Sort the DataFrame by the 'unix_milliseconds' column
     df = df.sort_values(by='Date')
 
-    print(df.tail(5))
-
     df = df.loc[:, ['Date', 'value']]
 
     return {
         'offchain': json.loads(df.to_json(orient='records'))
     }
-
 
 
 if __name__ == '__main__':

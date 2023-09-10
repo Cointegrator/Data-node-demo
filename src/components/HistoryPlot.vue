@@ -131,7 +131,7 @@ export default {
 
       xCursorLabelWidth: gvars.newsTimeScaleUTC? 168:130,  // the width of the x label for cursor position, showing date
       xCursorLabelHeight: 20,  // the height of the x label for cursor rectangle, showing date
-      yCursorLabelWidth: 60,   // the width of the y label for cursor rectangle (y value)
+      yCursorLabelWidth: 70,   // the width of the y label for cursor rectangle (y value)
       yCursorLabelHeight: 20,  // the height of the y label for cursor rectangle
 
       highlightMatchedCurveMame: "",
