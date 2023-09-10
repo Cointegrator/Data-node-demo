@@ -34,10 +34,12 @@ def get_asset():
 # get the asset table (the very left table on the left)
 @app.route('/getIndicator', methods=['POST'])
 def get_indicator():
-    df = pd.read_csv('./data/indicators_on_off_description.csv')
+    df = pd.read_csv('./data/indicators_on_off_description_now.csv')
 
     # append a percentage for random value
     df['Percentage'] = np.random.rand(len(df))
+
+    print(df.head())
     return df.to_json(orient='records')
 
 
@@ -48,12 +50,10 @@ def get_user_data():
         ['test2', 'John Sun2', 'john2@gmail.com'], 
         ['test2', 'John Sun3', 'john3@gmail.com'], 
     ]
-  
     # Create the pandas DataFrame
     df = pd.DataFrame(data, columns=['user_name', 'name', 'email'])
 
     return df.to_json(orient='records')
-
 
 
 @app.route('/getParameters', methods=['POST'])
@@ -73,22 +73,22 @@ def get_parameter_data():
 # sanity check route
 @app.route('/getTimeSeriesData', methods=['POST'])
 def get_time_series_data():
-    # Generate a range of dates in Unix milliseconds
-    start_date = datetime.datetime(2023, 1, 1)
-    end_date = datetime.datetime(2023, 1, 10)
-    date_range = pd.date_range(start_date, end_date, freq='D')
+    js_input = json.loads(request.data)['params']
+    asset_name = js_input['asset_name']
+    indicator_name = js_input['indicator_name']
 
-    # Generate random numerical values
-    num_values_1 = np.random.randint(1, 100, len(date_range))
-    num_values_2 = np.random.randint(1, 100, len(date_range))
+    df = pd.read_csv('./data/transaction.csv')
+    df['block_date'] = pd.to_datetime(df['block_date'])
+    df['Date'] = df['block_date'].astype('int64') // 10**6
 
-    # Create the DataFrame
-    data_1 = {'Date': date_range.astype(int) // 10**6, 'Close': num_values_1}
-    data_2 = {'Date': date_range.astype(int) // 10**6, 'Sentiment': num_values_2 }
-    df_1 = pd.DataFrame(data_1)
-    df_2 = pd.DataFrame(data_2)
+    # Sort the DataFrame by the 'unix_milliseconds' column
+    df = df.sort_values(by='Date')
 
-    return {'price': json.loads(df_1.to_json(orient='records')), 'sentiment': json.loads(df_2.to_json(orient='records'))}
+    df = df.loc[:, ['Date', 'volumes']]
+
+    return {
+        'offchain': json.loads(df.to_json(orient='records'))
+    }
 
 
 

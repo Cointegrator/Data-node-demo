@@ -63,7 +63,7 @@
             <b-row>
               <b-col class="col-12">
                 <span class="span-table-title">My Monitor</span>
-                <history-plot
+                <!-- <history-plot
                   plot-name="semantic_curve"
                   :plot-data="plotData"
                   :zoom-red-dot='false'
@@ -82,13 +82,40 @@
                   :div-height="30"
                   style="width:100%"
                 >
+                </history-plot> -->
+                <history-plot
+                  plot-name="dataCurve"
+                  :plot-data="plotData"
+                  :share-left-field='true'
+                  :zoom-red-dot='false'
+                  :y-left-field="{
+                    type: 'Curve',
+                    name: 'Volume',  // show this as the axis name
+                    field: 'offchain', // this is the ts field of plotData
+                    key: 'volumes',   // this is the yaxis key (x-axis is Date)
+                  }"
+                  :y-right-field="{ 
+                    type: 'Curve', 
+                    name: 'Volume', 
+                    field: 'onchain',
+                    key: 'volumes',
+                  }"
+                  :div-height="30"
+                  style="width:100%"
+                >
                 </history-plot>
               </b-col>
             </b-row>
+            <br>
             <b-row>
               <b-col class="col-6">
                 <span class="span-table-title">My Indicators</span>
-                <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+                <table-plot 
+                  :table-data="myIndicatorData" 
+                  :table-columns="myIndicatorColumns"
+                  :char-length="30"
+                >
+                </table-plot>
               </b-col>
               <b-col class="col-6">
                   <span class="span-table-title">Parameters</span>
@@ -127,21 +154,20 @@ export default {
   },
   data() {
     return {
-      tableData: [],
-      tableColumns: [
+      myIndicatorData: [
+        {'name': 'transaction', 'desc': 'Transaction volume'},
+        {'name': 'growth', 'desc': 'Number of wallet growth'},
+        {'name': 'whale', 'desc': 'Whale activities'}
+      ],
+      myIndicatorColumns: [
         {
-          prop: "asset_name",
+          prop: "name",
           label: "Name",
           minWidth: 50,
         },
         {
-          prop: "feature_0",
-          label: "feature_0",
-          minWidth: 50,
-        },
-        {
-          prop: "feature_1",
-          label: "feature_1",
+          prop: "desc",
+          label: "Description",
           minWidth: 50,
         },
       ],
@@ -294,15 +320,56 @@ export default {
       //     ]
       //   }
 
+      var indicator = "transaction"
       let path = "http://localhost:5000/getTimeSeriesData";
       try {
         const response = await axios.post(path, {
           params: {
-            asset_name: 'AAPL'
+            asset_name: vm.curAsset,
+            indicator_name: indicator
           },
         });
 
         vm.plotData = response.data
+
+        // append real onchain data for this token only
+        vm.plotData['onchain'] = []
+        if(vm.curAsset=='TOMI' && indicator=='transaction') {
+          vm.plotData['onchain'] = [
+            {
+              token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
+              indicator: 'transaction_volume',
+              Date: 1693929600000,
+              volumes: 855801.515563977
+            },
+            {
+              token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
+              indicator: 'transaction_volume',
+              Date: 1694016000000,
+              volumes: 589579.845289797
+            },
+            {
+              token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
+              indicator: 'transaction_volume',
+              Date: 1694102400000,
+              volumes: 1522446.423396
+            },
+            {
+              token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
+              indicator: 'transaction_volume',
+              Date: 1694188800000,
+              volumes: 151767.056899967
+            },
+            {
+              token: '0x4385328cc4d643ca98dfea734360c0f596c83449',
+              indicator: 'transaction_volume',
+              Date: 1694275200000,
+              volumes: 877146.644690235
+            }
+          ]
+        }
+        
+
         console.log(vm.plotData)
 
       } catch (error) {

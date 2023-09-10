@@ -33,6 +33,12 @@ import { bus } from "../main"
 export default {
   name: 'TablePlot',
   props: {
+    charLength: {
+      type: Number,
+      default: () => {
+        return 12;
+      }
+    },
     tableName: {
       type: String,
       default: () => {
@@ -122,8 +128,8 @@ export default {
         return value.toFixed(3)
       }
       else if(typeof value === 'string') {
-        if (value.length > 12) {
-          return value.slice(0, 12);
+        if (value.length > vm.charLength) {
+          return value.slice(0, vm.charLength);
         }
         else {
           return value;
