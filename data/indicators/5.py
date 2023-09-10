@@ -4,10 +4,10 @@ import re
 import pandas as pd
 
 
-openai.api_key = "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"
+openai.api_key = ""
 
 def get_indicators(ticker, description):
-    openai.api_key = "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"
+    openai.api_key = ""
     
     init_messages = [
     {"role": "system", "content": f"You are a trading expert. Your task is to find some 5 on-chain, and 5 off-chain indicators to predict price change of the crypto currency {ticker} {description} as a list"}
@@ -28,9 +28,12 @@ def get_indicators(ticker, description):
 
 
 
-df=pd.read_csv("collected_description_11PM.csv")
+df=pd.read_csv("collected_description_now.csv")
 df=df[['Coin name','link','description_list']]
 print(df.head(5))
+
+
+
 
 results=[]
 for index, row in df.iterrows():
@@ -41,9 +44,13 @@ for index, row in df.iterrows():
 
     result=get_indicators(name, description_list)
     print(f"{name}\n{result}\n\n")
-    results.append(result)
     
+    results.append(result)
+    print(f"{index} iteration done")
+    
+
+
 df['indicators']=results
 
 # Save the DataFrame as a CSV file
-df.to_csv('indicators.csv', index=False)  
+df.to_csv('indicators_now.csv', index=False)  
