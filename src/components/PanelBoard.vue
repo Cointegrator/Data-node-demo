@@ -26,7 +26,7 @@
               :table-data="selectedIndicatorData" 
               :table-columns="indicatorColumns"
               bar-col-ref="Percentage"
-              bar-col-name="Percentage"
+              bar-col-name="Incentive"
               extend-col-ref="Description"
               table-name="indicatorTable"
             >
