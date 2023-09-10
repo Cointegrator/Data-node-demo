@@ -82,7 +82,7 @@ print(new_df.head(10))
 
 df=pd.read_csv("collected_description_now.csv")
 
-df=df[['Coin name', 'description_list']]
+df=df[['Coin name', 'Token','description_list']]
 print(df.head(10))
 
 
