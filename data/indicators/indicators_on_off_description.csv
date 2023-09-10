@@ -1,0 +1,501 @@
+Coin name,Category,Indicator,Coin Description
+OpenANX,Onchain,Transaction Volume,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Offchain,Social Media Sentiment,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Onchain,Wallet Growth,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Offchain,News and Media Coverage,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Onchain,Token Velocity,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Offchain,Regulatory Developments,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Onchain,Exchange Inflow/Outflow,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Offchain,Market Capitalization,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Onchain,Network Hashrate,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+OpenANX,Offchain,Trading Volume,"OpenANX is a project that strives to provide support for decentralized finance and digital assets, offering alternatives to traditional financial ecosystems."
+TOMI,Onchain,Transaction Volume,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Offchain,Social Media Sentiment,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Onchain,Wallet Growth,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Offchain,News and Media Coverage,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Onchain,Token Velocity,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Offchain,Developer Activity,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Onchain,Exchange Inflow/Outflow,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Offchain,Partnerships and Integrations,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Onchain,Smart Contract Activity,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+TOMI,Offchain,Market Capitalization and Trading Volume,"TL;DR: TOMI is a Web3 platform empowering individuals with technology to promote and protect their digital rights, prioritizing privacy, anti-censorship, and freedom of speech."
+DREP,Onchain,Trading Volume,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Offchain,Social Media Sentiment,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Onchain,Market Depth,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Offchain,News and Media Coverage,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Onchain,Token Circulation,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Offchain,Exchange Listings,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Onchain,Token Velocity,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Offchain,Developer Activity,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Onchain,Network Hashrate,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+DREP,Offchain,Market Correlations,DREP is building blockchain-based connectors & toolkits to create an open data ecosystem & enable one-click integration of DApps.
+Mirror Finance,Onchain,Trading Volume,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Offchain,Social Media Sentiment,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Onchain,Token Velocity,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Offchain,News and Announcements,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Onchain,Token Age Consumed,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Offchain,Market Correlations,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Onchain,Exchange Inflow/Outflow,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Offchain,Trading Patterns,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Onchain,Whale Transactions,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+Mirror Finance,Offchain,Market Depth,"MIR token enables 24/7 equities trading by minting synthetic versions of real world assets, and allows users to propose and vote on changes to the protocol."
+REI Network,Onchain,Transaction volume,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Offchain,Market sentiment,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Onchain,Wallet growth,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Offchain,Regulatory developments,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Onchain,Token circulation,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Offchain,Partnerships and collaborations,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Onchain,Network hash rate,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Offchain,Trading volume on exchanges,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Onchain,Smart contract activity,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+REI Network,Offchain,Technical analysis,"REI Network was created to adjust the improvement pattern of the blockchain, and to accomplish a lightweight, Ethereum viable, better execution, and no expense blockchain system."
+Wrapped Ether,Onchain,Exchange Inflow/Outflow,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Offchain,Trading Volume,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Onchain,Token Velocity,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Offchain,Market Sentiment,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Onchain,Whale Transactions,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Offchain,Market Capitalization,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Onchain,Network Fees,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Offchain,Correlation with Ethereum,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Onchain,Active Addresses,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+Wrapped Ether,Offchain,Regulatory Developments,WETH (Wrapped Ethereum) is a token that represents an ERC-20 version of ETH on the Ethereum blockchain. Every WETH is 1:1 backed by real ETH.
+BitForex Token,Onchain,Trading volume,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Offchain,Market sentiment,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Onchain,Token velocity,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Offchain,Exchange listings,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Onchain,Token distribution,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Offchain,Regulatory developments,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Onchain,Network congestion,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Offchain,Market trends,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Onchain,Token burn rate,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+BitForex Token,Offchain,Trading volume on other exchanges,"BitForex Token (BF) is the native token of the BitForex ecosystem, offering trading bonuses, access to events, and premium airdrops."
+Hifi Finance,Onchain,Trading volume,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Offchain,Market sentiment,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Onchain,Token velocity,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Offchain,Partnerships and collaborations,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Onchain,Network activity,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Offchain,Regulatory developments,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Onchain,Token distribution,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Offchain,Market trends,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Onchain,Smart contract activity,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Hifi Finance,Offchain,Technical analysis,The project is a collection of exciting new projects and partnerships that build upon and integrate into Hifi's lending protocol.
+Baby Doge Coin,Onchain,Transaction Volume,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Offchain,Market Capitalization,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Onchain,Wallet Growth,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Offchain,News and Media Coverage,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Onchain,Token Circulation,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Offchain,Exchange Listings,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Onchain,Whale Activity,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Offchain,Trading Volume,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Onchain,Social Media Sentiment,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+Baby Doge Coin,Offchain,Technical Analysis,"Baby Doge Coin is a new crypto with improved transaction speeds, adorableness and hyper-deflationary static reflection that rewards holders."
+REVV,Onchain,Transaction Volume,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Offchain,Social Media Sentiment,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Onchain,Token Velocity,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Offchain,Trading Volume on Exchanges,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Onchain,Token Distribution,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Offchain,Market Capitalization,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Onchain,Exchange Inflow/Outflow,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Offchain,Partnership Announcements,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Onchain,Network Hashrate,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+REVV,Offchain,Regulatory Developments,"REVV is an ERC-20 utility token designed to be the currency of purchase, utility, and action in supported play-to-earn motorsport blockchain games."
+BlockBank,Onchain,Transaction volume,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Offchain,Market sentiment,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Onchain,Wallet growth,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Offchain,Regulatory developments,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Onchain,Token circulation,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Offchain,Competitor analysis,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Onchain,Network hash rate,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Offchain,Market liquidity,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Onchain,Token distribution,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+BlockBank,Offchain,Technology updates,BlockBank plans to combine DeFi and CeFi with AI to provide customers with improved financial services.
+Origin protocol,Onchain,Transaction volume,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Offchain,Social media sentiment,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Onchain,Wallet activity,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Offchain,Partnerships and collaborations,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Onchain,Token distribution,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Offchain,Regulatory developments,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Onchain,Network congestion,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Offchain,Market trends,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Onchain,Smart contract activity,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Origin protocol,Offchain,Trading volume and liquidity,"\nOrigin is a fully distributed team providing lower fees, better incentives, increased access, and more resilience to decentralized commerce and finance."
+Safemoon V2,Onchain,Trading Volume,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Offchain,Social Media Sentiment,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Onchain,Token Circulation,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Offchain,News and Announcements,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Onchain,Whale Transactions,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Offchain,Market Capitalization,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Onchain,Token Burn Rate,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Offchain,Competitor Analysis,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Onchain,Staking and Liquidity Mining Participation,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Safemoon V2,Offchain,Exchange Listings,Safemoon V2 is a new DeFi token that offers holders rewards for staking and liquidity mining.
+Lovely Inu,Onchain,Trading Volume,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Offchain,Social Media Sentiment,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Onchain,Token Circulation,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Offchain,News and Announcements,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Onchain,Token Holders,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Offchain,Market Trends,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Onchain,Token Burn,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Offchain,Exchange Listings,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Onchain,Smart Contract Activity,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Lovely Inu,Offchain,Token Metrics,LOVELY Token vision to make the record by growing token price. LOVELY is a utility token and a decentralized meme token
+Rainmaker Games,Onchain,Transaction volume,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Offchain,Social media sentiment,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Onchain,Wallet growth,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Offchain,News and media coverage,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Onchain,Token circulation,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Offchain,Trading volume on exchanges,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Onchain,Token distribution,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Offchain,Market capitalization,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Onchain,Network hash rate,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Rainmaker Games,Offchain,Competitor analysis,"Rainmaker Games is a platform that allows gamers to switch between games, train, learn, manage profits, visit, and get Guild Verified."
+Flamingo,Onchain,Transaction Volume,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Offchain,Social Media Sentiment,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Onchain,Token Velocity,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Offchain,Exchange Trading Volume,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Onchain,Token Age Consumed,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Offchain,Market Capitalization,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Onchain,Whale Accumulation/Distribution,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Offchain,Flamingo Development Updates,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Onchain,Network Hashrate,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Flamingo,Offchain,Crypto Market Trends,Flamingo is a decentralized finance platform in view of the Neo blockchain and the Poly Network interoperability protocol. It joins a few DeFi applications into a solitary environment.
+Seedify.fund,Onchain,Transaction Volume,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Offchain,Social Media Sentiment,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Onchain,Wallet Distribution,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Offchain,News and Media Coverage,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Onchain,Token Velocity,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Offchain,Market Capitalization,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Onchain,Network Hashrate,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Offchain,Competitor Analysis,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Onchain,Developer Activity,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Seedify.fund,Offchain,Regulatory Environment,"Seedify.fund is a blockchain gaming hatchery and platform that provides funding, community, and support to innovators."
+Tokenlon,Onchain,Trading volume,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Offchain,Market sentiment,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Onchain,Token velocity,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Offchain,Regulatory developments,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Onchain,Network activity,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Offchain,Market liquidity,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Onchain,Token distribution,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Offchain,Competitor analysis,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Onchain,Token age consumed,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Tokenlon,Offchain,Overall market trends,"LON is a utility token issued by the Tokenlon DEX, used to adjust all ecosystem partners and boost cooperation and extension of the environment."
+Dejitaru Tsuka,Onchain,Trading Volume,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Offchain,Market Sentiment,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Onchain,Network Hashrate,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Offchain,Regulatory Developments,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Onchain,Whale Transactions,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Offchain,Market Capitalization,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Onchain,Exchange Inflow/Outflow,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Offchain,Technical Analysis,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Onchain,Token Velocity,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Dejitaru Tsuka,Offchain,Adoption and Partnerships,"Tsuka is a decentralized community that is based on contemplation, reflection, and research."
+Perpetual Protocol,Onchain,Trading Volume,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Offchain,Social Media Sentiment,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Onchain,Network Hashrate,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Offchain,News and Media Coverage,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Onchain,Token Velocity,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Offchain,Trading Volume on Spot Exchanges,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Onchain,Whale Transactions,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Offchain,Market Depth,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Onchain,Exchange Inflow/Outflow,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Perpetual Protocol,Offchain,Trading Strategies of Professional Traders,"Perpetual Protocol democratizes advanced trading tools, allowing anyone to trade with up to 10x leverage, short sell, provide liquidity, and stake tokens."
+Ampleforth Governance Token,Onchain,Trading Volume,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Offchain,Social Media Sentiment,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Onchain,Token Velocity,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Offchain,News and Media Coverage,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Onchain,Whale Transactions,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Offchain,Market Capitalization,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Onchain,Exchange Inflows/Outflows,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Offchain,Trading Patterns,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Onchain,Token Age Consumed,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Ampleforth Governance Token,Offchain,Market Sentiment Index,"Forth is Ampleforth's governance token, allowing holders to vote on proposed changes to the protocol and complete the Ample ecosystem."
+Serum,Onchain,Trading Volume,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Offchain,Social Media Sentiment,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Onchain,Token Velocity,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Offchain,News and Media Coverage,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Onchain,Whale Transactions,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Offchain,Market Sentiment Index,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Onchain,Token Age Consumed,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Offchain,Trading Volume on Centralized Exchanges,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Onchain,Exchange Inflow/Outflow,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Serum,Offchain,Technical Analysis,"Serum (SRM) is a decentralized derivatives exchange project that enables trustless, permissionless cross-chain trading on Solana and Ethereum."
+Uquid Coin,Onchain,Transaction Volume,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Offchain,Social Media Sentiment,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Onchain,Wallet Addresses,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Offchain,Trading Volume on Exchanges,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Onchain,Token Velocity,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Offchain,Market Capitalization,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Onchain,Token Age Consumed,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Offchain,News and Media Coverage,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Onchain,Exchange Inflow/Outflow,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+Uquid Coin,Offchain,Developer Activity,"Uquid Coin is a decentralized virtual currency based on Ethereum technology, aiming to bridge DeFi and e-commerce with automated shopping making and smart contracts."
+FTX Token,Onchain,Transaction volume,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Offchain,Trading volume,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Onchain,Wallet activity,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Offchain,Social media sentiment,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Onchain,Token velocity,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Offchain,News and media coverage,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Onchain,Exchange inflows/outflows,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Offchain,Market capitalization,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Onchain,Whale transactions,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+FTX Token,Offchain,Trading patterns and technical analysis,"FTX Token (FTT) is a native token of FTX Exchange, allowing users to pay fewer fees, receive socialized gains, buy/burn fees, and use as collateral for futures trading."
+pSTAKE Finance,Onchain,Staking participation rate,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Offchain,Social media sentiment,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Onchain,Token velocity,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Offchain,Trading volume,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Onchain,Whale accumulation,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Offchain,Market capitalization,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Onchain,Network activity,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Offchain,Partnership announcements,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Onchain,Token burn rate,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+pSTAKE Finance,Offchain,Regulatory developments,pSTAKE enables stakers to earn rewards and yield on their PoS tokens while maintaining liquidity.
+Ellipsis,Onchain,Trading Volume,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Offchain,Social Media Sentiment,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Onchain,Network Hashrate,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Offchain,News and Announcements,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Onchain,Token Circulation,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Offchain,Exchange Listings,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Onchain,Whale Transactions,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Offchain,Market Capitalization,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Onchain,Token Age Consumed,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ellipsis,Offchain,Market Depth,Ellipsis is a cryptocurrency and works on the BNB Smart Chain platform. Ellipsis has an ongoing stock of 0.
+Ooki Protocol,Onchain,Trading Volume,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Offchain,Social Media Sentiment,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Onchain,Token Velocity,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Offchain,News and Media Coverage,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Onchain,Whale Transactions,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Offchain,Market Capitalization,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Onchain,Token Age Consumed,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Offchain,Exchange Listings,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Onchain,Network Hashrate,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Ooki Protocol,Offchain,Token Holder Distribution,"Ooki Protocol is a decentralized finance protocol that enables lenders, borrowers, and brokers to interact on different blockchains."
+Juventus Fan Token,Onchain,Transaction volume,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Offchain,Market capitalization,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Onchain,Wallet distribution,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Offchain,Trading volume on exchanges,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Onchain,Token velocity,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Offchain,News and media coverage,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Onchain,Network hash rate,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Offchain,Partnership announcements,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Onchain,Social media sentiment,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Juventus Fan Token,Offchain,Regulatory developments,"They work with some of the most prestigious sports teams in the world, and theyact like one. They think, train and play to win, enjoying every second of the game."
+Crust Network,Onchain,Transaction volume,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Offchain,Market sentiment,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Onchain,Token velocity,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Offchain,Developer activity,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Onchain,Network growth,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Offchain,Partnerships and collaborations,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Onchain,Whale activity,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Offchain,Regulatory developments,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Onchain,Staking participation,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Crust Network,Offchain,Market trends,"Crust Network provides decentralized storage and cloud solutions for Web 3.0 and Web 2.0, based on Polkadot's Substrate and IPFS, with blockchain-enhanced security, performance, and accountability."
+Troy,Onchain,Transaction volume,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Offchain,Market sentiment,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Onchain,Wallet growth,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Offchain,Trading volume on exchanges,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Onchain,Token circulation,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Offchain,Regulatory developments,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Onchain,Exchange inflows/outflows,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Offchain,Market capitalization,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Onchain,Network hash rate,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Troy,Offchain,Competitor analysis,"Troy is a smart hybrid asset management platform driven by inclusivity, profitability, security, and service."
+Akropolis,Onchain,Transaction Volume,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Offchain,Market Sentiment,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Onchain,Token Velocity,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Offchain,Exchange Listings,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Onchain,Token Distribution,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Offchain,Regulatory Developments,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Onchain,Network Hashrate,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Offchain,Market Capitalization,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Onchain,Developer Activity,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Akropolis,Offchain,Competitor Analysis,"Akropolis (AKRO) provides tools to save, grow and provision for the future without relying on intermediaries."
+Gods Unchained,Onchain,Transaction Volume,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Offchain,Social Media Sentiment,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Onchain,Token Velocity,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Offchain,Trading Volume on Exchanges,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Onchain,Token Age Consumed,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Offchain,Partnership Announcements,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Onchain,Exchange Inflow/Outflow,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Offchain,Gaming Community Engagement,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Onchain,Whale Transactions,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Gods Unchained,Offchain,Market Capitalization,GODS token is the currency utilized in the blockchain-based web-based trading card game.
+Choise.com,Onchain,Trading Volume,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Offchain,Social Media Sentiment,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Onchain,Network Hash Rate,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Offchain,Market Capitalization,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Onchain,Whale Transactions,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Offchain,Regulatory Developments,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Onchain,Exchange Inflow/Outflow,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Offchain,Adoption and Partnerships,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Onchain,Stablecoin Supply,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Choise.com,Offchain,Technical Analysis,Choise.com is a MetaFi platform that consolidates every one of the advantages of CeFi Crypterium administrations and the Charism DeFi ecosystem.
+Kaspa,Onchain,Transaction Volume,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Offchain,Social Media Sentiment,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Onchain,Network Hashrate,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Offchain,News and Media Coverage,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Onchain,Wallet Addresses,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Offchain,Trading Volume on Exchanges,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Onchain,Exchange Inflow/Outflow,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Offchain,Market Dominance,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Onchain,Token Age Consumed,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+Kaspa,Offchain,Technical Analysis,"Kaspa is a proof-of-work cryptocurrency that implements the GHOSTDAG protocol, allowing parallel blocks to coexist and be ordered in consensus."
+FIO Protocol,Onchain,Transaction Volume,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Offchain,Social Media Sentiment,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Onchain,Wallet Addresses,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Offchain,News and Media Coverage,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Onchain,Token Velocity,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Offchain,Trading Volume on Exchanges,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Onchain,Exchange Inflow/Outflow,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Offchain,Market Capitalization,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Onchain,Network Hashrate,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+FIO Protocol,Offchain,Token Supply,FIO Protocol is a blockchain protocol that plans to empower a better approach to sending/getting coins and tokens.
+Findora,Onchain,Trading Volume,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Offchain,Market Sentiment,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Onchain,Market Depth,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Offchain,Regulatory Developments,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Onchain,Network Hashrate,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Offchain,Market Capitalization,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Onchain,Token Circulation,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Offchain,Technology Developments,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Onchain,Token Age Consumed,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+Findora,Offchain,Economic Factors,"Findora is a public blockchain with programmable protection, allowing users conditional security with specific suitability."
+UMA,Onchain,Trading Volume,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Offchain,Market Sentiment,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Onchain,Network Hashrate,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Offchain,Exchange Listings,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Onchain,Token Velocity,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Offchain,Partnerships and Integrations,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Onchain,Whale Transactions,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Offchain,Regulatory Developments,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Onchain,Token Age Consumed,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+UMA,Offchain,Market Capitalization,"UMA is a blockchain protocol for trading and executing financial contracts, enabling the creation of synthetic assets tracking any price."
+Prometeus,Onchain,Transaction Volume,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Offchain,Social Media Sentiment,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Onchain,Wallet Growth,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Offchain,News and Media Coverage,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Onchain,Token Circulation,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Offchain,Developer Activity,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Onchain,Exchange Inflow/Outflow,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Offchain,Market Capitalization,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Onchain,Token Age Consumed,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Prometeus,Offchain,Trading Volume,"Prometeus Labs unites professionals from various industries to create a decentralized, censorship-free communication platform."
+Telos,Onchain,Transaction Volume,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Offchain,Social Media Sentiment,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Onchain,Token Circulation,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Offchain,Trading Volume on Exchanges,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Onchain,Token Velocity,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Offchain,Market Capitalization,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Onchain,Network Hashrate,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Offchain,Regulatory Developments,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Onchain,Developer Activity,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+Telos,Offchain,Partnerships and Integrations,"Telos is a smart contract blockchain running on EOSIO software, offering dApp developers 0.5s block times, 1000+ TPS, free transactions ' governance features."
+VNDC,Onchain,Transaction volume,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Offchain,Market sentiment,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Onchain,Wallet growth,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Offchain,Trading volume on exchanges,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Onchain,Token velocity,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Offchain,Fiat currency exchange rates,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Onchain,Exchange inflows/outflows,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Offchain,Regulatory developments,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Onchain,Stablecoin market capitalization,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+VNDC,Offchain,Market trends,"VNDC is a stablecoin pegged to the Vietnam Dong, based on Ethereum and Binance Chain."
+Tokocrypto,Onchain,Transaction Volume,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Offchain,Social Media Sentiment,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Onchain,Wallet Growth,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Offchain,News and Media Coverage,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Onchain,Token Velocity,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Offchain,Trading Volume on Exchanges,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Onchain,Exchange Inflow/Outflow,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Offchain,Market Capitalization,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Onchain,Whale Transactions,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+Tokocrypto,Offchain,Technical Analysis,"Tokocrypto is a Southeast Asian crypto exchange providing an easy, secure platform for users to make transactions and a community hub for crypto enthusiasts."
+aelf,Onchain,Transaction Volume,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Offchain,Market Sentiment,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Onchain,Token Velocity,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Offchain,Trading Volume,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Onchain,Network Hashrate,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Offchain,Regulatory Developments,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Onchain,Token Distribution,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Offchain,Partnerships and Integrations,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Onchain,Developer Activity,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+aelf,Offchain,Market Capitalization,"Ælf (Aelf, ELF) is a blockchain-based company with a decentralized cloud operating system, segregated nodes, and voting rights for token holders."
+Tornado Cash,Onchain,Transaction Volume,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Offchain,Social Media Sentiment,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Onchain,Token Velocity,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Offchain,Exchange Trading Volume,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Onchain,Whale Accumulation,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Offchain,Regulatory Developments,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Onchain,Token Age Consumed,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Offchain,Market Capitalization,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Onchain,Network Hashrate,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Tornado Cash,Offchain,Partnership Announcements,"Tornado Cash is a decentralized, non-custodial protocol for private crypto transactions, deployed by the community."
+Siacoin,Onchain,Transaction volume,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Offchain,Social media sentiment,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Onchain,Network hash rate,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Offchain,News sentiment,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Onchain,Wallet addresses,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Offchain,Trading volume on exchanges,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Onchain,Exchange inflows/outflows,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Offchain,Market capitalization,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Onchain,Token velocity,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+Siacoin,Offchain,Developer activity,"Siacoin is a blockchain-based storage platform with its own native currency, enabling open and decentralized storage trading."
+WHALE,Onchain,Transaction Volume,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Offchain,Market Capitalization,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Onchain,Wallet Distribution,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Offchain,Trading Volume,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Onchain,Token Velocity,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Offchain,News and Media Coverage,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Onchain,Network Hashrate,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Offchain,Regulatory Developments,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Onchain,Social Media Sentiment,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+WHALE,Offchain,Market Sentiment Index,WHALE is a social currency that is backed by tangible and rare NFT assets while embodying scarcity through definitive limited issuance.
+Adventure Gold,Onchain,Transaction Volume,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Offchain,Social Media Sentiment,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Onchain,Wallet Growth,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Offchain,Market Capitalization,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Onchain,Token Velocity,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Offchain,Regulatory Developments,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Onchain,Exchange Inflow/Outflow,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Offchain,Partnership Announcements,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Onchain,Mining Difficulty,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Adventure Gold,Offchain,Market Trends,"Loot is randomized traveler gear produced and put away on-chain. Details, pictures, and other uses are deliberately excluded for others to decipher."
+Ambire AdEx,Onchain,Trading volume,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Offchain,Market sentiment,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Onchain,Network activity,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Offchain,Partnership announcements,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Onchain,Token velocity,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Offchain,Regulatory developments,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Onchain,Whale transactions,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Offchain,Competitor analysis,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Onchain,Exchange inflows/outflows,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+Ambire AdEx,Offchain,Market trends,"Ambire AdEx, recently known as AdEx Network, developing a new solution for digital advertising and a DeFi-focused crypto wallet."
+BeNFT AI,Onchain,Transaction volume,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Offchain,Social media sentiment,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Onchain,Wallet activity,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Offchain,News and media coverage,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Onchain,Token circulation,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Offchain,Market capitalization,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Onchain,Token distribution,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Offchain,Trading volume on exchanges,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Onchain,Network hash rate,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+BeNFT AI,Offchain,Competitor analysis,"BeNFT combines blockchain and AI avatars for an immersive e-learning experience, aiming to shape the future of education."
+Nano,Onchain,Transaction Volume,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Offchain,Social Media Sentiment,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Onchain,Wallet Growth,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Offchain,Trading Volume on Exchanges,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Onchain,Exchange Inflows/Outflows,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Offchain,Market Capitalization,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Onchain,Network Hashrate,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Offchain,News and Media Coverage,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Onchain,Developer Activity,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Nano,Offchain,Crypto Market Trends,"Nano is a cryptocurrency with no exchange fees, based on a block-lattice data structure for limitless versatility."
+Ethernity Chain,Onchain,Transaction Volume,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Offchain,Social Media Sentiment,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Onchain,Token Velocity,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Offchain,Market Capitalization,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Onchain,Active Addresses,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Offchain,NFT Market Trends,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Onchain,Whale Accumulation,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Offchain,Partnership Announcements,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Onchain,Token Burn Rate,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
+Ethernity Chain,Offchain,Regulatory Developments,Ethernity Chain is a blockchain-based platform that enables users to take advantage of the growing popularity of NFTs.
