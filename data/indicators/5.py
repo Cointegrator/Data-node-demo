@@ -4,10 +4,10 @@ import re
 import pandas as pd
 
 
-openai.api_key = "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"
+openai.api_key = ""
 
 def get_indicators(ticker, description):
-    openai.api_key = "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"
+    openai.api_key = ""
     
     init_messages = [
     {"role": "system", "content": f"You are a trading expert. Your task is to find some 5 on-chain, and 5 off-chain indicators to predict price change of the crypto currency {ticker} {description} as a list"}
