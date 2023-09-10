@@ -34,7 +34,10 @@ def get_asset():
 # get the asset table (the very left table on the left)
 @app.route('/getIndicator', methods=['POST'])
 def get_indicator():
-    df = pd.read_csv('./data/popularity.csv')
+    df = pd.read_csv('./data/indicators_on_off_description.csv')
+
+    # append a percentage for random value
+    df['Percentage'] = np.random.rand(len(df))
     return df.to_json(orient='records')
 
 
@@ -56,8 +59,8 @@ def get_user_data():
 @app.route('/getParameters', methods=['POST'])
 def get_parameter_data():
     data = [
-        ['Data Consistency', '123M'], 
-        ['Reward', '$123'], 
+        ['Data Consistency', '20%'], 
+        ['Reward', '5 Sei token'], 
         ['Prediction Capability', '12%'], 
     ]
   
