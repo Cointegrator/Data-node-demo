@@ -16,6 +16,17 @@
             :formatter="formatTableData"
             >
             </el-table-column>
+
+            <el-table-column :label="barColName"
+              min-width="50">
+              <template slot-scope="scope">
+                <!-- Customize the content of the column here -->
+                <div class="bar-container">
+                  <div class="bar" :style="{ width: (scope.row[barColRef]*100) + '%' }"></div>
+                </div>
+              </template>
+            </el-table-column>
+
         </el-table>
         <el-pagination
           layout="prev, pager, next"
@@ -35,6 +46,18 @@ export default {
       type: String,
       default: () => {
         return "defaultTableName";
+      }
+    },
+    barColName: {// this is the name to be shown
+      type: String,
+      default: () => {
+        return "Length";
+      }
+    },
+    barColRef: { // this is the name in the data column
+      type: String,
+      default: () => {
+        return "total";
       }
     },
     tableColumns: {
@@ -132,6 +155,15 @@ export default {
 
 
 <style scoped>
+.bar-container {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+}
 
+.bar {
+  height: 100%;
+  background-color: #007BFF; /* Color for the bar */
+}
 </style>
 

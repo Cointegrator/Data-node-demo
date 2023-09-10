@@ -24,11 +24,18 @@ def get_asset_data():
 
 
 # get the asset table (the very left table on the left)
-@app.route('/getPopularity', methods=['POST'])
-def get_popularity_data():
+@app.route('/getAsset', methods=['POST'])
+def get_asset():
     df = pd.read_csv('./data/popularity.csv')
     return df.to_json(orient='records')
 
+
+
+# get the asset table (the very left table on the left)
+@app.route('/getIndicator', methods=['POST'])
+def get_indicator():
+    df = pd.read_csv('./data/popularity.csv')
+    return df.to_json(orient='records')
 
 
 @app.route('/getUsers', methods=['POST'])

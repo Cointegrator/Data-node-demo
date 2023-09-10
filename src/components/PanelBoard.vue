@@ -12,11 +12,18 @@
         <b-row class="div-content">
           <b-col class="col-6">
             <span class="span-table-title">Asset</span>
-            <table-plot :table-data="assetData" :table-columns="assetColumns"></table-plot>
+            <table-plot :table-data="assetData" :table-columns="assetColumns" table-name="assetTable"></table-plot>
           </b-col>
           <b-col class="col-6">
             <span class="span-table-title">System Indicators</span>
-            <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+            <table-bar-plot 
+              :table-data="indicatorData" 
+              :table-columns="indicatorColumns"
+              bar-col-ref="total"
+              bar-col-name="Percentage"
+              table-name="indicatorTable"
+            >
+            </table-bar-plot>
           </b-col>
         </b-row>
       </b-card>
@@ -73,6 +80,7 @@
 import axios from "axios";
 import HistoryPlot from './HistoryPlot.vue';
 import TablePlot from './TablePlot.vue';
+import TableBarPlot from './TableBarPlot.vue';
 import CardPlot from './CardPlot.vue';
 export default {
   name: 'PanelBoard',
@@ -82,7 +90,8 @@ export default {
   components: {
     HistoryPlot,
     TablePlot,
-    CardPlot
+    CardPlot,
+    TableBarPlot
   },
   data() {
     return {
@@ -139,6 +148,8 @@ export default {
               {'Date': 1662940800000, 'Sentiment':0.1},
           ]
         },
+      
+      
       assetData: [],
       assetColumns: [
         {
@@ -156,6 +167,25 @@ export default {
           label: "Trendy",
           minWidth: 38,
         },
+      ],
+
+      indicatorData: [],
+      indicatorColumns: [
+        {
+          prop: "rank",
+          label: "Rank",
+          minWidth: 32,
+        },
+        {
+          prop: "name",
+          label: "Name",
+          minWidth: 50,
+        },
+        // {
+        //   prop: "total",
+        //   label: "Trendy",
+        //   minWidth: 38,
+        // },
       ],
 
     }
@@ -251,7 +281,7 @@ export default {
 
     async loadAssetData() {
       let vm = this;      
-      let path = "http://localhost:5000/getPopularity";
+      let path = "http://localhost:5000/getAsset";
       try {
         const response = await axios.post(path, {
           params: {
@@ -264,6 +294,23 @@ export default {
         // pop up the error message
         console.log(error.message)
       }
+    },
+
+    async loadIndicatorData() {
+      let vm = this;      
+      let path = "http://localhost:5000/getIndicator";
+      try {
+        const response = await axios.post(path, {
+          params: {
+            asset_name: 'AAPL'
+          },
+        });
+
+        vm.indicatorData = response.data
+      } catch (error) {
+        // pop up the error message
+        console.log(error.message)
+      }
     }
   },
 
@@ -271,6 +318,7 @@ export default {
     let vm = this;
 
     await vm.loadAssetData()
+    await vm.loadIndicatorData()
 
     await vm.loadPlotData()
     await vm.loadData()  
