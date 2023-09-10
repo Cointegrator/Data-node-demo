@@ -1,7 +1,7 @@
 import pandas as pd
 from prophet import Prophet
 
-df_default = pd.read_csv('test/8PM_data.csv', index_col=0)
+df_default = pd.read_csv('yearly_data.csv', index_col=0)
 mat_token = df_default.iloc[:,1:].transpose()
 arr_columns = mat_token.columns[1:]
 
@@ -24,10 +24,10 @@ for column in arr_columns:
     df_daily.columns = ['y', 'ds']
     m = Prophet()
     m.fit(df_daily)  # df is a pandas.DataFrame with 'y' and 'ds' columns
-    future = m.make_future_dataframe(periods=1)
+    future = m.make_future_dataframe(periods=7)
     score = m.predict(future)
     result = score['trend']
-    score = (result.iloc[-1]- result.iloc[-2])/(result.iloc[-2] + 0.0001)
+    score = (result.iloc[-1]- result.iloc[-14])/(result.iloc[-14] + 0.0001)
     arr_result.append([column, score])
 df_score2 = pd.DataFrame(arr_result, columns=['Name', 'Value'])
 df_score2.set_index('Name', inplace=True)
@@ -38,4 +38,3 @@ result['total'] = result.sum(axis=1)
 result['Rank'] = result['total'].rank(ascending=False, method='first')
 df_sorted = result.sort_values(by='Rank')
 df_sorted[['total','Rank']].to_csv('popularity.csv')
-
