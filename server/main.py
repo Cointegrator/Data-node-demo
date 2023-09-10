@@ -27,7 +27,7 @@ def get_asset_data():
 # get the asset table (the very left table on the left)
 @app.route('/getAsset', methods=['POST'])
 def get_asset():
-    df = pd.read_csv('./data/popularity.csv')
+    df = pd.read_csv('./data/popularity_final.csv')
     return df.to_json(orient='records')
 
 

@@ -104,7 +104,7 @@ export default {
       // console.log('Clicked column:', column);
 
       if(this.tableName==='assetTable') {
-        bus.$emit('change_selected_asset', row['name']) 
+        bus.$emit('change_selected_asset', row['token']) 
       }
       if(this.tableName==='indicatorTable') {
         console.log(row['Description'])

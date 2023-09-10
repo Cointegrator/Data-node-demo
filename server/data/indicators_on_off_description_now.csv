@@ -1,4 +1,24 @@
 Name,Category,Indicator,Token,Description
+TOMI,Onchain,Trading Volume,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Offchain,Market Sentiment,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Onchain,Token Circulation,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Offchain,Partnerships and Integrations,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Onchain,Token Distribution,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Offchain,Regulatory Developments,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Onchain,Smart Contract Activity,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Offchain,Market Trends,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Onchain,Network Hashrate,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+TOMI,Offchain,Trading Patterns,TOMI,TOMI is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Onchain,Trading Volume,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Offchain,Market Sentiment,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Onchain,Token Circulation,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Offchain,Partnerships and Integrations,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Onchain,Token Distribution,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Offchain,Regulatory Developments,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Onchain,Smart Contract Activity,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Offchain,Market Trends,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Onchain,Network Hashrate,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
+MIR,Offchain,Trading Patterns,MIR,MIR is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
 Nest Protocol,Onchain,Trading Volume,NEST,NEST protocol (NEST) is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
 Nest Protocol,Offchain,Market Sentiment,NEST,NEST protocol (NEST) is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.
 Nest Protocol,Onchain,Token Circulation,NEST,NEST protocol (NEST) is a distributed price oracle network that aims to solve the problem of price on-chain through a decentralized incentive scheme.

@@ -90,7 +90,7 @@
                   :zoom-red-dot='false'
                   :y-left-field="{
                     type: 'Curve',
-                    name: 'Volume',  // show this as the axis name
+                    name: 'Value',  // show this as the axis name
                     field: 'offchain', // this is the ts field of plotData
                     key: 'value',   // this is the yaxis key (x-axis is Date)
                   }"
@@ -212,8 +212,8 @@ export default {
       assetData: [],
       assetColumns: [
         {
-          prop: "rank",
-          label: "Rank",
+          prop: "token",
+          label: "Token",
           minWidth: 32,
         },
         {
@@ -331,7 +331,7 @@ export default {
       //     ]
       //   }
 
-      var asset = 'TOMI' // vm.curAsset
+      var asset = vm.curAsset //'TOMI' 
       var indicator = vm.curIndicator //"transaction" 
       let path = "http://localhost:5000/getTimeSeriesData";
       try {
@@ -419,7 +419,7 @@ export default {
         });
 
         vm.assetData = response.data
-        vm.curAsset = 'FTX Token'
+        vm.curAsset = 'TOMI'
       } catch (error) {
         // pop up the error message
         console.log(error.message)
