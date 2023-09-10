@@ -77,7 +77,11 @@ def scrape_coinranking():
     # Display the DataFrame
     print(df)
     # Save the DataFrame to a CSV file
-    df.to_csv('crypto_data_11PM.csv', index=False)
+    current_time = time.localtime()
+    formatted_time = time.strftime("%H", current_time)
+
+    print(formatted_time)
+    df.to_csv(f'coinranking_top_gainers_{formatted_time}.csv', index=False)
 
     
     time.sleep(4)
