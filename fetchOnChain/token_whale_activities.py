@@ -13,6 +13,6 @@ df_sorted = df.sort_values(by='block_date', ascending=True)
 # Convert the block_date to only include the date part
 df['block_date'] = df['block_date'].str.split('T').str[0]
 # Keep only the block_date and volumes columns
-df = df[['block_date', 'volumes']]
+df = df[['block_date', 'transfer_out_times']]
 # Display the modified DataFrame
-df.csv('transaction.csv')
+df.to_csv('whales.csv')
