@@ -38,38 +38,45 @@
           </div>
         </template>
         <b-row class="div-content">
-          <b-col class="col-6">
-            <span class="span-table-title">My Indicators</span>
-            <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
-            <span class="span-table-title">Subscribers</span>
-            <table-plot :table-data="userData" :table-columns="userColumns"></table-plot>
-          </b-col>
-          <b-col class="col-6">
-              <span class="span-table-title">My Monitor</span>
-              <history-plot
-                plot-name="semantic_curve"
-                :plot-data="plotData"
-                :zoom-red-dot='false'
-                :y-left-field="{
-                  type: 'Curve',
-                  name: 'Price',  // show this as the axis name
-                  field: 'price', // this is the ts field of plotData
-                  key: 'Close',   // this is the yaxis key (x-axis is Date)
-                }"
-                :y-right-field="{ 
-                  type: 'Curve', 
-                  name: 'Sentiment', 
-                  field: 'sentiment',
-                  key: 'Sentiment',
-                }"
-                :div-height="26"
-                style="width:100%"
-              >
-              </history-plot>
-              <span class="span-table-title">Parameters</span>
-              <card-plot :list-data="parameterData"></card-plot>
+          <b-col>
+            <b-row>
+              <b-col class="col-12">
+                <span class="span-table-title">My Monitor</span>
+                <history-plot
+                  plot-name="semantic_curve"
+                  :plot-data="plotData"
+                  :zoom-red-dot='false'
+                  :y-left-field="{
+                    type: 'Curve',
+                    name: 'Price',  // show this as the axis name
+                    field: 'price', // this is the ts field of plotData
+                    key: 'Close',   // this is the yaxis key (x-axis is Date)
+                  }"
+                  :y-right-field="{ 
+                    type: 'Curve', 
+                    name: 'Sentiment', 
+                    field: 'sentiment',
+                    key: 'Sentiment',
+                  }"
+                  :div-height="30"
+                  style="width:100%"
+                >
+                </history-plot>
+              </b-col>
+            </b-row>
+            <b-row>
+              <b-col class="col-6">
+                <span class="span-table-title">My Indicators</span>
+                <table-plot :table-data="tableData" :table-columns="tableColumns"></table-plot>
+              </b-col>
+              <b-col class="col-6">
+                  <span class="span-table-title">Parameters</span>
+                  <card-plot :list-data="parameterData"></card-plot>
+              </b-col>
+            </b-row>
           </b-col>
         </b-row>
+        
       </b-card>
     </b-col>
   </b-row>

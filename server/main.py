@@ -56,9 +56,9 @@ def get_user_data():
 @app.route('/getParameters', methods=['POST'])
 def get_parameter_data():
     data = [
-        ['amount', '123M'], 
-        ['dollar', '$123'], 
-        ['ratio', '12%'], 
+        ['Data Consistency', '123M'], 
+        ['Reward', '$123'], 
+        ['Prediction Capability', '12%'], 
     ]
   
     # Create the pandas DataFrame
